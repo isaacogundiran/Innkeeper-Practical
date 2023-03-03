@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.menu li a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: blueviolet;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.container-head {
+  background-color: lightgrey;
+  height: 250px;
+}
+
+.container-head h1 {
+  text-align: center;
+  padding-top: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn-head {
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
